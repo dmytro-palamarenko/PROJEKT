@@ -32,7 +32,7 @@ addstyle();
                   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                      <div class="full">
                         <div class="center-desk">
-                           <div class="logo"><a href="#home"><img src="../assets/images/logo.png" style="max-width: 100%;"></a> 
+                           <div class="logo"><a href="#home"><img src="/logo2" style="max-width: 100%;"></a> 
                            </div>
                         </div>
                      </div>
