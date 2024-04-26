@@ -46,7 +46,7 @@ include('partials/header.php');
 					</div>
 				</div>
 				<div class="col-sm-12 gallery_maain">
-					<div class="row">
+					<div class="row">.
 						<?php
 							$gallery_obj = new Gallery();
 							echo $gallery_obj->get_gallery();
