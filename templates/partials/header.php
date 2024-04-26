@@ -1,5 +1,6 @@
 <?php
 require('../_inc/functions.php');
+require_once('../_inc/config.php');
 ?>
 
 <!DOCTYPE html>

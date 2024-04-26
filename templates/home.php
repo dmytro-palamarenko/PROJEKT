@@ -27,29 +27,10 @@ include('partials/header.php');
 			</div>
 		    <div class="product_section_2 images">
 			    <div class="row">
-			    	<div class="col-sm-4">
-			    		<div class="images"><img src="../photo/1_0.jpg" style="max-width: 100%; width: 100%;"></div>
-			    		<h2 class="den_text croissants"><a href="#">Classic</a></h2>
-			    	</div>
-			    	<div class="col-sm-4">
-			    		<div class="images"><img src="../photo/2_0.jpg" style="max-width: 100%; width: 100%;"></div>
-			    		<h2 class="den_text"><a href="#">Oatmeal</a></h2>
-			    	</div>
-			    
-		    
-		   
-			    	<div class="col-sm-4">
-			    		<div class="images"><img src="images/about-img4.png" style="max-width: 100%; width: 100%;"></div>
-			    		<h2 class="den_text"><a href="#">Cup Cake</a></h2>
-			    	</div>
-			    	<div class="col-sm-4">
-			    		<div class="images"><img src="images/about-img5.png" style="max-width: 100%; width: 100%;"></div>
-			    		<h2 class="den_text"><a href="#">Donut</a></h2>
-			    	</div>
-			    	<div class="col-sm-4">
-			    		<div class="images"><img src="images/about-img6.png" style="max-width: 100%; width: 100%;"></div>
-			    		<h2 class="den_text"><a href="#">Chocolate Cup Cake</a></h2>
-			    	</div>
+			    	<?php 
+						$shop_obj = new Shop();
+						echo $shop_obj->get_shop();
+					?>
 			    </div>
 		    </div>
 		</div>
@@ -66,38 +47,10 @@ include('partials/header.php');
 				</div>
 				<div class="col-sm-12 gallery_maain">
 					<div class="row">
-						<div class="col-sm-3 padding_0">
-							<div class="gallery_blog">
-								<img class="img-responive" src="images/gallery-img1.png">
-								<div class="overlay">
-									<h2>Breakfast Breads</h2>
-								</div>
-							</div>
-						</div>
-                        <div class="col-sm-3 padding_0">
-							<div class="gallery_blog">
-								<img class="img-responive" src="images/gallery-img2.png">
-								<div class="overlay">
-									<h2>Breakfast Breads</h2>
-								</div>
-							</div>
-                        </div>
-                        <div class="col-sm-3 padding_0">
-							<div class="gallery_blog">
-								<img class="img-responive" src="images/gallery-img3.png">
-								<div class="overlay">
-									<h2>Breakfast Breads</h2>
-								</div>
-							</div>
-                        </div>
-                        <div class="col-sm-3 padding_0">
-							<div class="gallery_blog">
-								<img class="img-responive" src="images/gallery-img4.png">
-								<div class="overlay">
-									<h2>Breakfast Breads</h2>
-								</div>
-							</div>
-                        </div>
+						<?php
+							$gallery_obj = new Gallery();
+							echo $gallery_obj->get_gallery();
+						?>
 					</div>
 				</div>
 			</div>
