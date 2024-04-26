@@ -12,7 +12,7 @@
     		<div class="row">	
     			<div class="col-sm-6 col-md-6 col-lg-3">
     				<h2 class="adderess_text">Adderess</h2>
-    				<div class="image-icon"><img src="images/map-icon.png"><span class="email_text">Gb road 123 boston </span></div>
+    				<div class="image-icon"><img src="images/map-icon.png"><span class="email_text">Gb road 123 London </span></div>
     				<div class="image-icon"><img src="images/phone-icon.png"><span class="email_text">(+71) 56982424536</span></div>
     				<div class="image-icon"><img src="images/email-icon.png"><span class="email_text">bacerim@gmail.com</span></div>
     			</div>
@@ -42,7 +42,7 @@
     				<h2 class="adderess_text">Instagram</h2>
     				<div class="row">
     					<div class="col-md-6">
-    						<div class="footer-img"><img src="images/footer-img1.png" style="width: 100%;"></div>
+    						<div class="footer-img"><img src="../assets/images/footer-img1.png" style="width: 100%;"></div>
     					</div>
     					<div class="col-md-6">
     						<div class="footer-img"><img src="images/footer-img2.png" style="width: 100%;"></div>

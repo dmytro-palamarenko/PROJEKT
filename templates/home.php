@@ -28,16 +28,12 @@ include('partials/header.php');
 		    <div class="product_section_2 images">
 			    <div class="row">
 			    	<div class="col-sm-4">
-			    		<div class="images"><img src="images/about-img1.png" style="max-width: 100%; width: 100%;"></div>
-			    		<h2 class="den_text croissants"><a href="#">Croissants Breakfast</a></h2>
+			    		<div class="images"><img src="../photo/1_0.jpg" style="max-width: 100%; width: 100%;"></div>
+			    		<h2 class="den_text croissants"><a href="#">Classic</a></h2>
 			    	</div>
 			    	<div class="col-sm-4">
-			    		<div class="images"><img src="images/about-img2.png" style="max-width: 100%; width: 100%;"></div>
-			    		<h2 class="den_text"><a href="#">Roll Cake</a></h2>
-			    	</div>
-			    	<div class="col-sm-4">
-			    		<div class="images"><img src="images/about-img3.png" style="max-width: 100%; width: 100%;"></div>
-			    		<h2 class="den_text"><a href="#">BreadFrench Toast</a></h2>
+			    		<div class="images"><img src="../photo/2_0.jpg" style="max-width: 100%; width: 100%;"></div>
+			    		<h2 class="den_text"><a href="#">Oatmeal</a></h2>
 			    	</div>
 			    
 		    
