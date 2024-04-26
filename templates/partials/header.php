@@ -78,7 +78,7 @@ addstyle();
     <div class="carousel-item">
       <div class="row ">
 				<div class="col-md-6 taital">
-					<h1>Quality<strong class="banner_taital">Products with breads sweet Den</strong></h1>
+					<h1>Quality<strong class="banner_taital">delicious cookies with a large selection in Pekarka </strong></h1>
                      <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
 				</div>
 				<div class="col-md-6">
@@ -92,7 +92,7 @@ addstyle();
     <div class="carousel-item">
      <div class="row ">
 				<div class="col-md-6 taital">
-					<h1>Quality<strong class="banner_taital">Products with breads sweet Den</strong></h1>
+					<h1>Quality<strong class="banner_taital">delicious cookies with a large selection in Pekarka</strong></h1>
                      <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
 				</div>
 				<div class="col-md-6">
