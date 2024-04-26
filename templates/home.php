@@ -10,7 +10,7 @@ include('partials/header.php');
 		        	<div><img src="images/cupcake-img.png" style="max-width: 100%;"></div>
 		        </div>
 		        <div class="col-md-6">
-		        	<h1 class="about_text"><strong>About Den <span class="color">Shop</span></strong></h1>
+		        	<h1 class="about_text"><strong>About pekerka <span class="color">Shop</span></strong></h1>
 		        	<p class="about_taital">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve niam, quis nostrud exercitationconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 		        	<button class="read_more"><a href="#">Read More</a></button>
 		        </div>
@@ -46,7 +46,7 @@ include('partials/header.php');
 					</div>
 				</div>
 				<div class="col-sm-12 gallery_maain">
-					<div class="row">.
+					<div class="row">
 						<?php
 							$gallery_obj = new Gallery();
 							echo $gallery_obj->get_gallery();
